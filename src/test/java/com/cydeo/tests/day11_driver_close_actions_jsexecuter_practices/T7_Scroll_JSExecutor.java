@@ -1,11 +1,11 @@
 package com.cydeo.tests.day11_driver_close_actions_jsexecuter_practices;
 
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import utulities.BrowserUtils;
-import utulities.Driver;
 
 public class T7_Scroll_JSExecutor {
     @Test

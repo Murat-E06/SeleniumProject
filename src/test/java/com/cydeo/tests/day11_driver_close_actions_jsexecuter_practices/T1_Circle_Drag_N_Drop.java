@@ -1,11 +1,11 @@
 package com.cydeo.tests.day11_driver_close_actions_jsexecuter_practices;
 
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utulities.Driver;
 
 public class T1_Circle_Drag_N_Drop {
     @Test

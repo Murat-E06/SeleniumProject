@@ -1,10 +1,10 @@
 package com.cydeo.tests.day05_testNG_intro_dropdowns;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utulities.WebDriverFactory;
 
 import java.util.concurrent.TimeUnit;
 

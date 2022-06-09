@@ -1,17 +1,12 @@
 package com.cydeo.tests.day08_propoties_config_reader;
 
+import com.cydeo.utilities.ConfigurationsReader;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utulities.ConfigurationsReader;
-import utulities.Driver;
-import utulities.WebDriverFactory;
-
-import java.util.concurrent.TimeUnit;
 
 public class T4_Config_Practice {
 

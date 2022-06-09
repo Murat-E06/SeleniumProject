@@ -1,12 +1,12 @@
 package com.cydeo.tests.day10_upload_actions_jsexecutor;
 
+import com.cydeo.utilities.ConfigurationsReader;
+import com.cydeo.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-import utulities.ConfigurationsReader;
-import utulities.Driver;
 
 public class T1_Registration_Form {
     @Test

@@ -1,9 +1,9 @@
 package com.cydeo.tests.day05_testNG_intro_dropdowns;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utulities.WebDriverFactory;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

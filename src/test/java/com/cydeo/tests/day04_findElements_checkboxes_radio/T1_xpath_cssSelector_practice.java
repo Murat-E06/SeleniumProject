@@ -1,9 +1,9 @@
 package com.cydeo.tests.day04_findElements_checkboxes_radio;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utulities.WebDriverFactory;
 
 public class T1_xpath_cssSelector_practice {
     public static void main(String[] args) {

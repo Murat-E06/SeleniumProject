@@ -1,9 +1,9 @@
 package com.cydeo.tests.day03_CssSelectorXpath;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utulities.WebDriverFactory;
 
 public class T2_getText_getAttribute {
     public static void main(String[] args) {

@@ -1,12 +1,11 @@
 package com.cydeo.tests.day10_upload_actions_jsexecutor;
 
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import utulities.BrowserUtils;
-import utulities.ConfigurationsReader;
-import utulities.Driver;
 
 public class T2_UploadPractice {
     @Test

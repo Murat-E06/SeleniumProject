@@ -1,10 +1,10 @@
 package com.cydeo.tests.day03_CssSelectorXpath;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import utulities.WebDriverFactory;
 
 public class T5_getText_getAttribute2 {
     public static void main(String[] args) {

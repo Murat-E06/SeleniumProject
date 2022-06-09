@@ -1,5 +1,6 @@
 package com.cydeo.tests.day06_alerts_iframes_windows;
 
+import com.cydeo.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,6 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import utulities.WebDriverFactory;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;

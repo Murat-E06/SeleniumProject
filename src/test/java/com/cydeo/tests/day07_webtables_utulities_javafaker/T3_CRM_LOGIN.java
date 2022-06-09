@@ -1,10 +1,10 @@
 package com.cydeo.tests.day07_webtables_utulities_javafaker;
 
 import com.cydeo.tests.base.TestBase;
+import com.cydeo.utilities.BrowserUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import utulities.BrowserUtils;
 
 public class  T3_CRM_LOGIN extends TestBase {
     //Buradaki ilk defination satırlarını cut yaptık test packege daki TestBase clasa yapıştırdık o clası abstract yaptık

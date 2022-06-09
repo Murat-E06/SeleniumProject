@@ -1,9 +1,9 @@
 package com.cydeo.tests.day10_upload_actions_jsexecutor;
 
+import com.cydeo.utilities.BrowserUtils;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
-import utulities.BrowserUtils;
-import utulities.Driver;
 
 public class T6_JavascriptExecutor {
     @Test
