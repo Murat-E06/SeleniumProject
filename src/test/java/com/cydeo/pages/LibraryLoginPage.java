@@ -1,4 +1,4 @@
-package pages;
+package com.cydeo.pages;
 
 import com.cydeo.utilities.Driver;
 import org.openqa.selenium.WebElement;
