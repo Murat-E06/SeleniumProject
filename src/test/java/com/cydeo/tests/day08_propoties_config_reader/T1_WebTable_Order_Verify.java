@@ -1,7 +1,7 @@
 package com.cydeo.tests.day08_propoties_config_reader;
 
-import com.cydeo.utulities.WebDriverFactory;
-import com.cydeo.utulities.WebTablesUtils;
+import com.cydeo.utilities.WebDriverFactory;
+import com.cydeo.utilities.WebTablesUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

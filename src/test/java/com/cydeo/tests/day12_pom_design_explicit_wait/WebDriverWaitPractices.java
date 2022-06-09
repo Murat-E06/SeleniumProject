@@ -2,7 +2,7 @@ package com.cydeo.tests.day12_pom_design_explicit_wait;
 
 import com.cydeo.pages.DynamicLoad1Page;
 import com.cydeo.pages.DynamicLoad7Page;
-import com.cydeo.utulities.Driver;
+import com.cydeo.utilities.Driver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;

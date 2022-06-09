@@ -1,6 +1,6 @@
 package com.cydeo.tests.day12_pom_design_explicit_wait;
 
-import com.cydeo.utulities.Driver;
+import com.cydeo.utilities.Driver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
