@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigurationsReader {
+public class ConfigurationReader {
     //1. Create the object of Properties
    private static Properties properties=new Properties();
 

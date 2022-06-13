@@ -1,6 +1,6 @@
 package com.cydeo.tests.day08_propoties_config_reader;
 
-import com.cydeo.utilities.ConfigurationsReader;
+import com.cydeo.utilities.ConfigurationReader;
 import com.cydeo.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
@@ -37,11 +37,11 @@ public class T4_Config_Practice {
         WebElement googleSearchBox = Driver.getDriver().findElement(By.xpath("//input[@name='q']"));
         googleSearchBox.sendKeys("apple"+ Keys.ENTER);
 
-        googleSearchBox.sendKeys(ConfigurationsReader.getProperty("searchValue")+ Keys.ENTER);
+        googleSearchBox.sendKeys(ConfigurationReader.getProperty("searchValue")+ Keys.ENTER);
 
         //4- Verify title:
         //Expected: apple - Google Search
-        String expectedTitle=ConfigurationsReader.getProperty("searchValue")+" - Google Search";
+        String expectedTitle= ConfigurationReader.getProperty("searchValue")+" - Google Search";
         String actualTitle=Driver.getDriver().getTitle();
 
         Assert.assertEquals(actualTitle,expectedTitle);

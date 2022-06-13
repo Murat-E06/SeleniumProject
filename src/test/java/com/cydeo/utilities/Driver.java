@@ -22,7 +22,7 @@ public class Driver {
         if(driver==null){
             //we read our browserType from configuration.properties.
             //This way, we can control which browser is opened from outside our code, from confg.properties
-            String browserType= ConfigurationsReader.getProperty("browser");
+            String browserType= ConfigurationReader.getProperty("browser");
         //depending on the browserType that will be return from confg.properties file
             //switch stat. will determine the case and open the matching browser.
             switch (browserType){

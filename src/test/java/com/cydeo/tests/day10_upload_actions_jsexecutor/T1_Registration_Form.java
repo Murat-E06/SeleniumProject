@@ -1,6 +1,6 @@
 package com.cydeo.tests.day10_upload_actions_jsexecutor;
 
-import com.cydeo.utilities.ConfigurationsReader;
+import com.cydeo.utilities.ConfigurationReader;
 import com.cydeo.utilities.Driver;
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -17,7 +17,7 @@ public class T1_Registration_Form {
         //1. Open browser
         //2. Go to website: https://practice.cydeo.com/registration_form
         //Driver.getDriver()-->driver
-        Driver.getDriver().get(ConfigurationsReader.getProperty("registration.form.url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("registration.form.url"));
         //confg.properties de burayı tanımladık ve oradan key i copy paste yaptık ama nereye ConfigurationsReader.getProperty
         //nin içine direk ilk get()in içine yazamıyoruz o da key in value si olan adrese götürüyor bizi
 
